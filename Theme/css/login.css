@@ -1,0 +1,394 @@
+body {
+    font-family: open sans,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    color: #999;
+    background-color: #263238
+}
+
+#log-reg {
+    float: left;
+    width: 100%;
+    padding: 40px 0;
+    height: 100%;
+    background: #263238;
+    background-size: cover
+}
+
+{
+    background-color: #fff;
+    background-image: url(../img/bgr-sologan.png);
+    background-repeat: no-repeat;
+    background-position: 0 0
+}
+
+@media(min-width: 410px) and (max-width:420px) {
+    {
+        background-image:none
+    }
+
+    #log-reg .sologan {
+        display: none
+    }
+
+    #log-reg {
+        background-image: none
+    }
+}
+
+p.sug {
+    font-size: 15px;
+    color: #6e6d6d
+}
+
+.lg-mxh p.sug {
+    margin-bottom: 15px
+}
+
+.modal-header {
+    border: 0;
+    text-align: center;
+    padding: 30px 20px;
+    position: relative
+}
+
+.modal-header .close {
+    position: absolute;
+    top: 8px;
+    right: 10px
+}
+
+{
+    padding: 0
+}
+
+#log-reg .sologan {
+    padding: 140px 15px
+}
+
+#log-reg .sologan p {
+    color: #fff;
+    font-style: italic;
+    font-size: 18px
+}
+
+.title {
+    float: left;
+    width: 100%;
+    font-weight: 700;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 40px;
+    text-align: center
+}
+
+.tab-login.update-info .title {
+    text-align: left
+}
+
+.tab-login .bor-form {
+    float: left;
+    width: 100%
+}
+
+.tab-login .bor-form input {
+    border: 0;
+    border-bottom: 1px solid #3f4a50;
+    border-radius: 0;
+    box-shadow: none;
+    padding-left: 25px;
+    height: 45px;
+    color: #fff;
+    font-weight: 600
+}
+
+.tab-login .bor-form input[type=file] {
+    color: #888
+}
+
+.tab-login .bor-form label {
+    height: 45px;
+    line-height: 35px;
+    font-size: 15px;
+    text-align: left
+}
+
+.tab-login .bor-form .gender label {
+    top: -18px;
+    position: relative
+}
+
+.tab-login .bor-form input[type=submit] {
+    background-color: #f3cb2b;
+    border-radius: 20px;
+    padding: 6px 40px;
+    color: #000;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    border: 0;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.tab-login .bor-form input[type=checkbox] {
+    height: auto
+}
+
+.tab-login .bor-form input.lg-email {
+    background: url(../img/icon-email.png) no-repeat 0 center
+}
+
+.tab-login .bor-form input.lg-name {
+    background: url(../img/icon-user.png) no-repeat 0 center
+}
+
+.tab-login .bor-form input.lg-capcha {
+    background: url(../img/icon-sec.png) no-repeat 0 center
+}
+
+.tab-login .bor-form input.lg-pass {
+    background: url(../img/icon-pass.png) no-repeat 0 center
+}
+
+.tab-login .bor-form .checkbox {
+    float: left;
+    width: 100%;
+    margin-top: 10px
+}
+
+.tab-login .bor-form .checkbox .col-md-6:first-child {
+    margin-top: 10px
+}
+
+.tab-login .bor-form .form-group {
+    position: relative
+}
+
+.tab-login .bor-form .form-group .fogort-pass {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    color: #3b5998
+}
+
+.tab-login .bor-form .form-group .in-error {
+    padding: 6px 0;
+    color: #d2472f;
+    font-family: semibold
+}
+
+.tab-login .bor-form .checkbox button {
+    background: #d8d8d8;
+    width: 150px;
+    height: 45px;
+    text-align: center;
+    color: #333;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    border: 0;
+    box-shadow: none;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.tab-login .lg-mxh {
+    float: left;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 20px
+}
+
+.tab-login .lg-mxh .face {
+    padding: 0 5px 0 0
+}
+
+.tab-login .lg-mxh .gg {
+    padding: 0 0 0 5px
+}
+
+.tab-login .lg-mxh .face>a {
+    float: left;
+    width: 100%;
+    padding: 12px 25px;
+    text-align: center;
+    color: #fff;
+    background: #3b5998;
+    border-radius: 20px
+}
+
+.tab-login .lg-mxh .gg>a {
+    float: left;
+    width: 100%;
+    padding: 12px 25px;
+    text-align: center;
+    color: #fff;
+    background: #d04226;
+    border-radius: 20px
+}
+
+.tab-login {
+    padding: 0 160px
+}
+
+.tab-login.update-info {
+    padding: 0 20px
+}
+
+#tab-register {
+}
+
+#tab-register .bor-form .checkbox label>a {
+    color: #6381c0
+}
+
+#tab-register .bor-form .checkbox button {
+    background-color: #f3cb2b;
+    color: #000
+}
+
+#tab-register .bor-form .form-group .capcha {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+#tab-register .bor-form .form-group .capcha .code {
+    width: 110px;
+    height: 45px;
+    float: left
+}
+
+#tab-register .bor-form .form-group .change {
+    width: 22px;
+    height: 45px;
+    margin-left: 8px;
+    background: url(../img/icon-try.png) no-repeat 0 center;
+    float: left
+}
+
+#success-modal .bor-form h4 {
+    font-family: 700;
+    font-size: 18px;
+    text-align: center;
+    color: #000
+}
+
+#success-modal .bor-form>p {
+    text-align: center;
+    font-size: 16px;
+    color: #8c8c8c
+}
+
+#success-modal .tab-login .bor-form {
+    padding: 30px 20px 10px
+}
+
+#success-modal .tab-login .bor-form .checkbox {
+    text-align: center
+}
+
+#success-modal .tab-login .bor-form .checkbox button {
+    margin: auto;
+    float: none!important;
+    background-color: #e4e0e0;
+    opacity: 1;
+    box-shadow: none;
+    text-shadow: none
+}
+
+.alert-error {
+    background: #ffd4d4;
+    color: #333
+}
+
+.tab-login .bor-form .btn-register {
+    background-color: #f3cb2b;
+    border-radius: 20px;
+    padding: 6px 15px;
+    color: #000;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    border: 0;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.tab-login .bor-form .btn-login {
+    background-color: #d8d8d8;
+    border-radius: 20px;
+    padding: 6px 15px;
+    color: #000;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 12px;
+    border: 0;
+    box-shadow: none;
+    text-transform: uppercase;
+    font-weight: 600
+}
+
+.profile-sidebar {
+    padding: 20px
+}
+
+.profile-userpic {
+}
+
+.profile-userpic img {
+    float: none;
+    margin: 0 auto;
+    width: 150px
+}
+
+.profile-usertitle {
+    text-align: center;
+    margin-top: 20px
+}
+
+.profile-usertitle-name {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 7px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+.profile-usertitle-vip {
+    text-transform: uppercase;
+    color: #f6ce4c;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 15px
+}
+
+@media(min-width: 1170px) {
+    #log-reg .tab-login.col-md-5 {
+        width:35.666667%
+    }
+
+    #log-reg .sologan.col-md-2 {
+        width: 28.666667%
+    }
+
+    #tab-register {
+        border-left: 1px solid #e4e4e4
+    }
+}
+
+@media screen and (max-width: 799px) {
+    .tab-login {
+        padding:0 40px
+    }
+}
+
+@media screen and (max-width: 640px) {
+}
+
+@media screen and (max-width: 479px) {
+    .tab-login {
+        padding:0 20px
+    }
+}
